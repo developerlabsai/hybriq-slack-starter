@@ -1,0 +1,36 @@
+{
+  "name": "hybriq-slack-starter",
+  "version": "1.0.0",
+  "description": "Build AI-powered Slack bots in 5 minutes with HybrIQ",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hybriq/sdk": "^0.1.0",
+    "@slack/bolt": "^4.1.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hybriq",
+    "slack",
+    "ai",
+    "bot",
+    "chatbot",
+    "llm",
+    "claude"
+  ]
+}
